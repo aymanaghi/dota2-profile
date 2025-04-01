@@ -48,3 +48,6 @@ def update_stats():
     stats = opendota.get_player(426808952)
     # Runs daily via GitHub Actions
     # Full script: /scripts/update_stats.py
+
+
+## [![Pudge Win Rate](https://img.shields.io/badge/Pudge_Win_Rate-48.3%25-red?style=flat-square)](https://www.dotabuff.com/players/426808952/heroes/14)
