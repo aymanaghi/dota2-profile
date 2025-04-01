@@ -49,5 +49,16 @@ def update_stats():
     # Runs daily via GitHub Actions
     # Full script: /scripts/update_stats.py
 
+```
+[![Pudge Win Rate](https://img.shields.io/badge/Pudge_Win_Rate-48.3%25-red?style=flat-square)](https://www.dotabuff.com/players/426808952/heroes/14)
 
-## [![Pudge Win Rate](https://img.shields.io/badge/Pudge_Win_Rate-48.3%25-red?style=flat-square)](https://www.dotabuff.com/players/426808952/heroes/14)
+
+![Win Rate Chart](https://quickchart.io/chart?c={type:'bar',data:{labels:['Pudge','Techies','Invoker'],datasets:[{label:'Win Rate %',data:[48.3,53.8,52.9]}]}})
+
+
+### 🎲 Hero Grid
+<img src="https://www.dotabuff.com/players/426808952/heroes-grid" alt="Hero Grid" width="400">
+
+
+
+
