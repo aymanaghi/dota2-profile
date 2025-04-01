@@ -14,15 +14,17 @@
 *(Updates daily via [GitHub Actions](https://github.com/aymanaghi/dota-2-profile/actions))*
 
 ---
+## 🏆 Hero Hall of Fame
 
-## 🏆 Hero Arsenal (Top 5)
-| Hero | Matches | Win Rate | Signature Move |
-|------|---------|----------|----------------|
-| ![Pudge](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png) | 143 | 48.3% | "Fountain Hook Attempts" |
-| ![Techies](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png) | 65 | 53.8% | "Minefield Sign TP Blocks" |
-| ![Invoker](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png) | 87 | 52.9% | "Tornado into EMP Miss" |
-| ![Crystal Maiden](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png) | 42 | 50% | "Dying to Neutral Creeps" |
-| ![Anti-Mage](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png) | 38 | 47.4% | "20min Battlefury Timing" |
+| Hero | Matches | Win Rate | KDA | Favorite Item |
+|------|---------|----------|-----|---------------|
+| ![Pudge](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png) <br> **[Pudge](https://www.dotabuff.com/players/426808952/heroes/14)** | 143 | 48.3% | 2.85 | ![Aghanim's Scepter](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/ultimate_scepter.png) |
+| ![Techies](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png) <br> **[Techies](https://www.dotabuff.com/players/426808952/heroes/105)** | 65 | 53.8% | 3.12 | ![Force Staff](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/force_staff.png) |
+| ![Invoker](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png) <br> **[Invoker](https://www.dotabuff.com/players/426808952/heroes/74)** | 87 | 52.9% | 3.45 | ![Aghanim's Scepter](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/ultimate_scepter.png) |
+| ![Crystal Maiden](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png) <br> **[CM](https://www.dotabuff.com/players/426808952/heroes/5)** | 42 | 50.0% | 2.91 | ![Glimmer Cape](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/glimmer_cape.png) |
+| ![Anti-Mage](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png) <br> **[Anti-Mage](https://www.dotabuff.com/players/426808952/heroes/1)** | 38 | 47.4% | 3.02 | ![Battle Fury](https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/bfury.png) |
+
+*Data from [Dotabuff](https://www.dotabuff.com/players/426808952/heroes) - Updates weekly*
 
 ---
 
