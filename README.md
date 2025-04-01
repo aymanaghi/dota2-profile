@@ -40,3 +40,11 @@
 + Strengths: Techies mind games, Tilt-resistant, 2am grind mentality
 - Weaknesses: Hook accuracy, "One more game" syndrome
 ! Signature: Buys Aghs on every hero "for the meme"
+
+
+# How these stats update automatically
+def update_stats():
+    import opendota
+    stats = opendota.get_player(426808952)
+    # Runs daily via GitHub Actions
+    # Full script: /scripts/update_stats.py
