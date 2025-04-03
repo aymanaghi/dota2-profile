@@ -63,4 +63,80 @@ def update_stats():
 
 
 
+name: Update Dota Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # runs every 6 hours (adjust as needed)
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run update script
+        run: python update_readme.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update Dota stats" || echo "No changes to commit"
+          git push
+
+import requests
+
+# Replace with your actual Dota 2 account ID
+dota_id = 'YOUR_DOTA_ID'
+
+def get_recent_matches(dota_id):
+    url = f"https://api.opendota.com/api/players/{dota_id}/recentMatches"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    return []
+
+def get_player_stats(dota_id):
+    url = f"https://api.opendota.com/api/players/{dota_id}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    return {}
+
+def update_readme(stats, recent_matches):
+    with open("README.md", "w") as f:
+        f.write("# Dota Stats\n\n")
+        f.write("## Latest Matches\n")
+        for match in recent_matches:
+            match_id = match.get("match_id")
+            kills = match.get("kills")
+            deaths = match.get("deaths")
+            assists = match.get("assists")
+            f.write(f"- Match {match_id}: {kills}/{deaths}/{assists}\n")
+        f.write("\n## Overall Stats\n")
+        f.write(f"MMR: {stats.get('mmr_est', 'N/A')}\n")
+
+def main():
+    recent_matches = get_recent_matches(dota_id)
+    stats = get_player_stats(dota_id)
+    update_readme(stats, recent_matches)
+
+if __name__ == "__main__":
+    main()
+
+
+
 
