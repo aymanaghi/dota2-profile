@@ -1,0 +1,49 @@
+newmtl beard_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd beard_color.tga
+Ni 1.00
+newmtl bracer_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bracer_color.tga
+Ni 1.00
+newmtl cape_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cape_color.tga
+Ni 1.00
+newmtl furion_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd furion_color.tga
+Ni 1.00
+newmtl furion_weaponSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd furion_weapon_color.tga
+Ni 1.00
+newmtl horns_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd horns_color.tga
+Ni 1.00
+newmtl necklace_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd necklace_color.tga
+Ni 1.00
